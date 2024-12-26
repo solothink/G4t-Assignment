@@ -100,9 +100,3 @@ WebSocket implementation for instant feedback on test submissions:
 - Proper HTTP status codes
 - Detailed error messages
 
-## Testing
-
-Run tests using:
-```bash
-npm test
-```
