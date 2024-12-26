@@ -44,7 +44,7 @@ router.post('/assign',
 );
 
 // Update test score
-router.post('/assignment/:assignmentId/score',
+router.patch('/assignment/:assignmentId/score',
   authMiddleware,
   roleCheck(['admin', 'super-admin']),
   [
